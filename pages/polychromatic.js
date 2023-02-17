@@ -78,6 +78,14 @@ export default function Polychromatic() {
 
     return(
         <>
+
+        <Head>
+          <title>NASA TechPort & EPIC API</title>
+          <meta name="description" content="The website showcases NASA's technologies using the TechPort and PIC API and offers daily full disc imagery of the Earth and unique astronomical events. Users can discover the technologies NASA is developing in propulsion, nanotechnology, robotics, and human health while enjoying stunning images of the universe." />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <link rel="icon" href="/galaxy.png" />
+        </Head>
+        
             <HeaderBar />
 
             <Galaxy />
