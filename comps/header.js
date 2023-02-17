@@ -5,6 +5,13 @@ const HeaderBar = () => {
   return (
     <header className={styles.header}>
       <nav className={styles.nav}>
+      <img 
+        className={styles.headerIcon}
+        src="/galaxy-header.png" 
+        width="60px"
+        onClick={
+            ()=>r.push("/")}
+        />
         <ul className={styles.navList}>
           <li className={styles.navItem}>
             <a href="/">

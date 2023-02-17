@@ -299,6 +299,10 @@
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+.headerIcon {
+  filter: brightness(0) invert(1);
+}
+
 .nav {
   display: flex;
   justify-content: space-between;
