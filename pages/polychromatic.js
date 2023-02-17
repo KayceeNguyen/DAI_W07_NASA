@@ -48,7 +48,7 @@ export default function Polychromatic() {
         image: image,
         time: time,
         coords: coords,
-        caption: caption
+        // caption: caption
     });
 }
 
