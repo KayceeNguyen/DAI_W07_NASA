@@ -14,7 +14,7 @@ export default function Home() {
 
     const [data, setData] = useState();
   
-    const apiKey = process.env.API_KEY;
+    const apiKey = "qO706hvtrjKPLwTwuCZ9XYxHnUPvhtQHSM6Ncmu8";
     const url = `https://api.nasa.gov/techtransfer/patent/?q=10&engine&api_key=${apiKey}`
   
     const getTechTransferData = async () => {
