@@ -4,6 +4,7 @@ import Image from "next/image";
 import styles from '@/styles/Home.module.css'
 import HeaderBar from '@/comps/header'
 import Galaxy from '@/comps/galaxy'
+import Head from 'next/head'
 
 export default function Polychromatic() {
 
@@ -85,7 +86,7 @@ export default function Polychromatic() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/galaxy.png" />
         </Head>
-        
+
             <HeaderBar />
 
             <Galaxy />
